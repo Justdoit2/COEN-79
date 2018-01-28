@@ -143,7 +143,7 @@ namespace scu_coen79_3{
         for ( int i=0;i<used;++i){
             stanDev+=pow(data[i]-mean(),2);
         }
-        return sqrt(stanDev/used); standared deviation
+        return sqrt(stanDev/used); 
     }
     
     sequence operator +=(const sequence& lhs, const sequence& rhs){
