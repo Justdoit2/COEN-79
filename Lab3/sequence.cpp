@@ -99,10 +99,8 @@ namespace scu_coen79_3{
     
     void sequence::insert_front(const value_type & entry) {
         assert(size()<CAPACITY);
-        for ( int i=used;i>0;--i){
-            data[i]=data[i-1];//shift everything to right
-        }
-        data[0]=entry;
+        current_index=0;
+        insert(entry);
         used++; //increment size
     }
     
