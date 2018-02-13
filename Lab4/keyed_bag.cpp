@@ -1,9 +1,7 @@
 //
 //  main.cpp
 //  key_bag
-//
-//  Created by Alma Niu on 2/2/18.
-//  Copyright © 2018 Coen79. All rights reserved.
+
 //
 
 #include <iostream>
