@@ -2,8 +2,7 @@
 //  main.cpp
 //  poly
 //
-//  Created by Alma Niu on 2/2/18.
-//  Copyright © 2018 Coen79. All rights reserved.
+
 //
 #include "poly.h"
 #include<fstream>
