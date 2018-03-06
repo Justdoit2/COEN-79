@@ -127,7 +127,7 @@ namespace coen79_lab7
         }
         
         prev->setLink(temp->getLink());
-        free(temp); //not sure if should free temp
+        free(temp); //free node
         return true;
         
     }
