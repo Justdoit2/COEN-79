@@ -45,7 +45,7 @@ namespace coen79_lab7
         list_copy(src.head_ptr,this->head_ptr,this->tail_ptr);
         this->company_name=src.company_name;
     
-        return *this; //not sure
+        return *this; //return object
     }
     
     
